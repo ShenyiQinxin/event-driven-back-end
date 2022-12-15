@@ -1,1 +1,1 @@
-This is an event driven back end for the haunted tour front end
+This is a service for twitter streaming and fetch tweets
