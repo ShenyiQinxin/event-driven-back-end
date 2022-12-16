@@ -1,0 +1,30 @@
+{
+  "name": "twitter-streaming-service",
+  "version": "1.0.0",
+  "description": "This is a service for twitter streaming and fetch tweets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenyiQinxin/twitter-streaming-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShenyiQinxin/twitter-streaming-service/issues"
+  },
+  "homepage": "https://github.com/ShenyiQinxin/twitter-streaming-service#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "needle": "^3.2.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
